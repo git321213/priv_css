@@ -1,0 +1,70 @@
+/* Rainbow Discord Theme */
+/* Made by ChatGPT */
+
+/* Set the background to a gradient from red to violet */
+:root {
+  --bg-gradient: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+/* Set the background of the chat area to the gradient */
+.chat-3bRxxu {
+  background: var(--bg-gradient);
+}
+
+/* Set the background of the server list to white and make the text black */
+.container-iksrDt {
+  background: #fff;
+  color: #000;
+}
+
+/* Set the background of the message input area to white */
+.content-3YMskv {
+  background: #fff;
+}
+
+/* Change the background color of the Discord logo */
+.logo-3q4LFh {
+  background-color: var(--bg-gradient);
+}
+
+/* Change the color of the username and discriminator in messages to white */
+/* and give it a black outline to make it stand out */
+.username-1A8OIy, .discriminator-3tYCOD {
+  color: #fff !important;
+  text-shadow: 0px 0px 1px #000;
+}
+
+/* Change the color of links in messages to a light purple */
+.anchor-3Z-8Bb {
+  color: #af7ac5 !important;
+}
+
+/* Set the background color of the buttons in the message input area to white */
+.button-1ZiXG9 {
+  background-color: #fff;
+}
+
+/* Set the color of the text on buttons in the message input area to black */
+.button-1ZiXG9 span {
+  color: #000;
+}
+
+/* Change the color of the selected channel in the server list to a light purple */
+.selected-aXhQR6 {
+  background-color: #af7ac5 !important;
+}
+
+/* Change the color of the channel names in the server list to white */
+.guilds-1SWlCJ .name-3_Dsmg {
+  color: #fff !important;
+}
+
+/* Change the color of the active user indicator in the server list to white */
+.avatar-1BDn8e[style*="border-color: rgb(114, 137, 218)"] {
+  border-color: #fff !important;
+}
+
+/* Change the color of the active user indicator in the chat area to white */
+.wrapper-2TxpE1[style*="border-color: rgb(114, 137, 218)"] {
+  border-color: #fff !important;
+}
